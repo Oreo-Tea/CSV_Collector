@@ -5,6 +5,12 @@ PLC Data Collector (WinForms)
 - 設定画面で PLC の IP、受信ポート、保存間隔、保存保持年数、保存先フォルダを設定可能。
 
 ビルドと実行
+
+### Windows 実行条件
+- 本アプリは Windows Desktop 向け WinForms アプリケーションです。
+- 実行には `Microsoft.WindowsDesktop.App` の Windows Desktop ランタイムが必要です。
+- macOS 上では GUI 実行できません。macOS ではビルドのみ可能で、実際の実行は Windows で行ってください。
+
 1. Windows 環境で .NET SDK をインストールしてください。
 2. プロジェクトフォルダでビルド:
 
